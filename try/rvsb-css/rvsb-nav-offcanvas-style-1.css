@@ -1,0 +1,78 @@
+/* Modifier `uk-nav-offcanvas`
+ ========================================================================== */
+/*
+ * Items
+ */
+.uk-nav-offcanvas > li > a {
+  color: #cccccc;
+  padding: 10px 15px;
+}
+/*
+ * Hover
+ * No hover on touch devices because it behaves buggy in fixed offcanvas
+ * 1. Apply hover style also to focus state
+ * 2. Remove default focus style
+ */
+.uk-nav-offcanvas > .uk-open > a,
+html:not(.uk-touch) .uk-nav-offcanvas > li > a:hover,
+html:not(.uk-touch) .uk-nav-offcanvas > li > a:focus {
+  background: #404040;
+  color: #ffffff;
+  /* 2 */
+  outline: none;
+}
+/*
+ * Active
+ * `html .uk-nav` needed for higher specificity to override hover
+ */
+html .uk-nav.uk-nav-offcanvas > li.uk-active > a {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+/*
+ * Sub-object: `uk-nav-header`
+ */
+.uk-nav-offcanvas .uk-nav-header {
+  color: #777777;
+}
+/*
+ * Sub-object: `uk-nav-divider`
+ */
+.uk-nav-offcanvas .uk-nav-divider {
+  border-top: 1px solid #1a1a1a;
+}
+/*
+ * Nested items
+ * No hover on touch devices because it behaves buggy in fixed offcanvas
+ */
+.uk-nav-offcanvas ul a {
+  color: #cccccc;
+}
+html:not(.uk-touch) .uk-nav-offcanvas ul a:hover {
+  color: #ffffff;
+}
+
+
+/* ADD Offcanvas menu on mobile
+ ========================================================================== */
+.uk-nav-offcanvas > li > a {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05) inset;
+    color: #ccc;
+    padding: 10px 15px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+}
+ul.uk-nav-offcanvas .uk-nav-sub > li > a {
+  color: #ccc;
+}
+
+/* toggle nav menu on sticky nav */
+
+.uk-offcanvas-page .uk-sticky-placeholder > * {
+    margin-left: 0;
+    transition: margin-left .15s linear;
+    -webkit-transition: margin-left .2s linear;
+}
+.uk-offcanvas-page nav.uk-active {
+    margin-left: 270px;
+}

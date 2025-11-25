@@ -1,0 +1,168 @@
+/* Slideshow - style:: classic
+ ========================================================================== */
+.tm-slideshow-classic {
+  overflow: hidden;
+}
+.tm-slideshow-classic .uk-slideshow li:before {
+  position: absolute;
+  content: "";
+  box-shadow: inset 0 0 0 5px rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  z-index: 1;
+}
+.tm-slideshow-classic .uk-dotnav {
+  position: absolute;
+  top: 0;
+}
+.tm-slideshow-classic .uk-dotnav.uk-flex-left.uk-position-top {
+  margin: 10px;
+}
+.tm-slideshow-classic .uk-dotnav.uk-flex-right.uk-position-top {
+  margin: 10px 0 0;
+  right: 25px;
+}
+.tm-slideshow-classic .uk-dotnav li a {
+  border: 1px solid #ec3b00;
+  border-radius: 0;
+  background: rgba(0, 0, 0, 0);
+  width: 15px;
+  height: 15px;
+}
+.tm-slideshow-classic .uk-dotnav > .uk-active > * {
+  background-color: #ec3b00;
+}
+.tm-slideshow-classic .uk-button,
+.tm-slideshow-classic .tm-tags-list a,
+.tm-slideshow-classic .tagspopular ul li a,
+.tm-slideshow-classic .tm-tag {
+  margin-left: 20px;
+}
+.tm-slideshow-classic .uk-overlay-panel {
+  padding: 0 0 30px 0;
+  z-index: 1;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;
+}
+.tm-slideshow-classic .uk-overlay-panel h1,
+.tm-slideshow-classic .uk-overlay-panel h2,
+.tm-slideshow-classic .uk-overlay-panel h3,
+.tm-slideshow-classic .uk-overlay-panel h4 {
+  background: #ec3b00;
+  color: #ffffff;
+  padding: 20px 30px;
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0 0 15px;
+  display: table;
+}
+.tm-slideshow-classic .uk-overlay-panel div {
+  display: table;
+  margin: 0;
+}
+.tm-slideshow-classic .uk-overlay-panel div p {
+  background: #4b4b4b;
+  color: #ffffff;
+  padding: 20px 30px;
+  font-size: 18px;
+  line-height: 40px;
+  margin: 0;
+}
+.tm-slideshow-classic .uk-slidenav {
+  top: auto;
+  bottom: 0;
+  font-size: 30px;
+  display: inline-block;
+  background-color: rgba(75, 75, 75, 0.5);
+  width: 50px;
+  height: 60px;
+  line-height: 60px;
+}
+.tm-slideshow-classic .uk-slidenav-next:before,
+.tm-slideshow-classic .uk-slidenav-previous:before {
+  color: #ffffff;
+  font-family: "fontAwesome";
+}
+.tm-slideshow-classic .uk-slidenav-next:hover,
+.tm-slideshow-classic .uk-slidenav-previous:hover {
+  background-color: #656565;
+}
+.tm-slideshow-classic .uk-slidenav-next {
+  right: 0;
+}
+.tm-slideshow-classic .uk-slidenav-previous {
+  left: auto;
+  right: 50px;
+}
+.tm-slideshow-classic .uk-slidenav-previous:before {
+  content: "\f104";
+}
+.tm-slideshow-classic .uk-slidenav-next:before {
+  content: "\f105";
+}
+/*
+ * Responsive
+ */
+@media (max-width: 768px) {
+  .tm-slideshow-default .uk-overlay-panel h1,
+  .tm-slideshow-classic .uk-overlay-panel h1,
+  .tm-slideshow-default .uk-overlay-panel h2,
+  .tm-slideshow-classic .uk-overlay-panel h2,
+  .tm-slideshow-default .uk-overlay-panel h3,
+  .tm-slideshow-classic .uk-overlay-panel h3,
+  .tm-slideshow-default .uk-overlay-panel h4,
+  .tm-slideshow-classic .uk-overlay-panel h4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .tm-slideshow-default .uk-overlay-panel div p,
+  .tm-slideshow-classic .uk-overlay-panel div p {
+    display: none;
+  }
+  .tm-slideshow-default .uk-slidenav,
+  .tm-slideshow-classic .uk-slidenav {
+    display: none !important;
+  }
+  .tm-slideshow-default .caption,
+  .tm-slideshow-classic .caption {
+    font-size: 13px;
+    line-height: 22px;
+  }
+  .tm-slideshow-default.tm-full-slideshow .uk-overlay-panel,
+  .tm-slideshow-classic.tm-full-slideshow .uk-overlay-panel {
+    padding-bottom: 90px;
+  }
+  .tm-slideshow-default .tm-testimonial,
+  .tm-slideshow-classic .tm-testimonial {
+    padding: 0;
+    margin: 0 10px;
+  }
+}
+@media (max-width: 767px) {
+  body.uk-container {
+    padding: 0;
+  }
+  .tm-slideshow-classic .uk-overlay-panel {
+    padding: 0;
+  }
+  .tm-slideshow-classic .uk-dotnav li a {
+    width: 12px;
+    height: 12px;
+  }
+  .tm-slideshow-default .uk-overlay-panel h1,
+  .tm-slideshow-classic .uk-overlay-panel h1,
+  .tm-slideshow-default .uk-overlay-panel h2,
+  .tm-slideshow-classic .uk-overlay-panel h2,
+  .tm-slideshow-default .uk-overlay-panel h3,
+  .tm-slideshow-classic .uk-overlay-panel h3,
+  .tm-slideshow-default .uk-overlay-panel h4,
+  .tm-slideshow-classic .uk-overlay-panel h4 {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 10px 20px;
+  }
+}

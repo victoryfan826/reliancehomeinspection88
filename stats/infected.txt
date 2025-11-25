@@ -1,0 +1,18 @@
+/wp-content/themes/twentyeleven/functions.php (known malicious file; matched malware: LONGDEF.PHP.Spam-Links-009N.UNOFFICIAL)
+/wp-includes/images/smilies/classes.php (known malicious file; matched malware: JCDEF.PHP.CMDSHELL-01.UNOFFICIAL)
+/wp-includes/images/smilies/media.php (known malicious file; matched malware: {HEX}php.cmdshell.unclassed.344.UNOFFICIAL)
+/wp-includes/images/wlw/streams.pl (known malicious file; matched malware: {HEX}PHP.C99-7.UNOFFICIAL)
+/wp-includes/images/wlw/pattern.php (known malicious file; matched malware: SiteLock-PHP-SHELL-md5-djx.UNOFFICIAL)
+Scanned 2095 files.
+Found 5 malicious files.
+Found 0 potentially malicious files.
+PASSBACK:found_files=2096
+PASSBACK:files=2095
+PASSBACK:large_files=0
+PASSBACK:empty_files=0
+PASSBACK:bad_files=5
+PASSBACK:maybe_files=0
+PASSBACK:safe_files=9
+PASSBACK:not_files=1
+PASSBACK:md5_missing=0
+PASSBACK:runtime=659

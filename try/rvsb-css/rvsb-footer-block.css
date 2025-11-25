@@ -1,0 +1,119 @@
+#footerTemplate {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+#footerTemplate a {
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+.rvsb-bg-footer {
+	color: #fff;
+	padding: 5px 35px;
+}
+.rvsb-bg-footer h3 {
+	color: #fff;
+}
+.rvsb-bg-footer a {
+	color: #fff;
+}
+.rvsb-bg-footer a.uk-icon-button {
+	color: #4a4a4a;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	font-family: FontAwesome !important;
+}
+.uk-list-inline li {
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+div.tableFrame {
+	display: table;
+}
+div.tableFrame .tableCell {
+	display: table-cell;
+	padding-right: 5px;
+}
+.rv-block-full-footer {
+	max-width: 100% !important;
+}
+.uk-footer-displayNone {
+	display: none;
+}
+div#copyrightFooter {
+	margin: 0 0 0 0;
+	font-family: ;
+	font-size: ;
+	color: ;
+	font-style: ;
+	font-weight: ;
+}
+div#google_maps_footer {
+	width: 100%;
+	height: 200px;
+}
+div#footerTemplate {
+	background-color: #0b153d;
+	padding: 5px 0;
+}
+div#divgooglemapFooter {
+	margin-top: 15px;
+}
+div#sitemapFooter a {
+	font-family: ;
+}
+div#sitemapFooter {
+	font-size: ;
+	color: ;
+	font-style: ;
+	font-weight: ;
+}
+a.sitemapFooterLink {
+	color: ;
+}
+h3#titleContact {
+	font-family: ;
+	font-size: ;
+	color: ;
+	font-style: ;
+	font-weight: ;
+}
+li#liAddressFooter {
+	font-family: ;
+	font-size: ;
+	color: ;
+	font-style: ;
+	font-weight: ;
+}
+li#liPhoneFooter {
+	font-family: ;
+	font-size: ;
+	color: ;
+	font-style: ;
+	font-weight: ;
+}
+li#liEmailFooter {
+	font-family: ;
+	font-size: ;
+	color: ;
+	font-style: ;
+	font-weight: ;
+}
+h3#titleInformation {
+	font-family: ;
+	font-size: ;
+	color: ;
+	font-style: ;
+	font-weight: ;
+}
+hr#hrInformation {
+	border-top-width: ;
+	border-top-style: ;
+	border-top-color: ;
+}
+div#contentInformation {
+	font-family: ;
+	font-size: ;
+	color: ;
+	font-style: ;
+	font-weight: ;
+}
