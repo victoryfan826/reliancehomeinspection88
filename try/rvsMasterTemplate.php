@@ -93,7 +93,7 @@ Published date: April 11, 2020, 8:56 27 (GMT -05:00) -->
         <div class="rs_header_spacer">        
     <!-- START LOGO -->
           <div id="Layer1" class="rs_header_logo"></div>
-          <div id="Layer2" class="rs_header_companyname"><font color="#ff7b38" face="Times"><span style="font-size: 36px;"><span style="font-size: 36px;"><b style="font-size: 36px; color: rgb(51, 51, 51);"><span style="color:rgb(255,153,0);font-size: 36px;">温哥华验房师验屋师范胜利</span></b></span> Reliance Home Inspection</span></font></div> 
+          <div id="Layer2" class="rs_header_companyname"><font color="#ff7b38" face="Times"><span style="font-size: 36px;"><span style="font-size: 36px;"><b style="font-size: 36px; color: rgb(51, 51, 51);"><span style="color:rgb(255,153,0);font-size: 36px;">温哥华验房师验屋师Victor Fan</span></b></span> Reliance Home Inspection</span></font></div> 
           <div id="Layer3" class="rs_header_slogan"></div>
           <!-- START CUSTOM LAYER --><!-- END CUSTOM LAYER -->
     <!-- END LOGO -->
@@ -225,7 +225,7 @@ $(document).ready(function(){
 <a href="http://www.reliancehomeinspection.com/try/%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD.php"   target="_self" ><span  pageid="efd7a12d0e1e7289b394dca7549b8f21"  is_homepage="0"  is_draft="0"  page_title=""  meta_keyword=""  meta_description=""  file_name="%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD.php"  other_embed=""  page_css="" >文件下载</span></a></li>
 </ul>
     			   	<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
-    				<div class="uk-navbar-brand uk-navbar-center uk-visible-small"><font color="#ff7b38" face="Times"><span style="font-size: 36px;"><span style="font-size: 36px;"><b style="font-size: 36px; color: rgb(51, 51, 51);"><span style="color:rgb(255,153,0);font-size: 36px;">温哥华验房师验屋师范胜利</span></b></span> Reliance Home Inspection</span></font></div>
+    				<div class="uk-navbar-brand uk-navbar-center uk-visible-small"><font color="#ff7b38" face="Times"><span style="font-size: 36px;"><span style="font-size: 36px;"><b style="font-size: 36px; color: rgb(51, 51, 51);"><span style="color:rgb(255,153,0);font-size: 36px;">温哥华验房师验屋师Victor Fan</span></b></span> Reliance Home Inspection</span></font></div>
     			    </nav>
     				</div>
     			
