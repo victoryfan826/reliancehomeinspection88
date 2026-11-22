@@ -94,7 +94,7 @@ Published date: April 12, 2020, 2:08 59 (GMT -05:00) -->
     <!-- START LOGO -->
           <div id="Layer1" class="rs_header_logo"></div>
           <div id="Layer2" class="rs_header_companyname"><br /></div> 
-          <div id="Layer3" class="rs_header_slogan"><b><span style="color: rgb(255, 153, 0); font-size: 36px; font-family: Arial;"><span style="color: rgb(255, 153, 0); font-size: 36px; font-family: Arial;">温哥华验房师/验屋师范胜利</span></span><span style="font-family: Times; font-size: 36px; color: rgb(51, 51, 51);">&nbsp;<span style="color:rgb(255,153,0);font-family: Times; font-size: 36px;">Reliance Home Inspection</span></span></b></div>
+          <div id="Layer3" class="rs_header_slogan"><b><span style="color: rgb(255, 153, 0); font-size: 36px; font-family: Arial;"><span style="color: rgb(255, 153, 0); font-size: 36px; font-family: Arial;">温哥华验房师/验屋师Victor Fan</span></span><span style="font-family: Times; font-size: 36px; color: rgb(51, 51, 51);">&nbsp;<span style="color:rgb(255,153,0);font-family: Times; font-size: 36px;">Reliance Home Inspection</span></span></b></div>
           <!-- START CUSTOM LAYER --><!-- END CUSTOM LAYER -->
     <!-- END LOGO -->
 
