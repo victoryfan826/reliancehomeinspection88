@@ -24,7 +24,7 @@
  .text { width: 880px; min-height: 400px; _height: 400px; padding: 25px 19px; }
  #navigation { font-family: Georgia, arial, sans-serif; position: relative; width: 960px; height: 29px; z-index: 2; padding: 11px 0 0 0; background: url(theme/navigationbg.png?703320) no-repeat; _bbbackground: none; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/theme/navigationbg.png?703320', sizingMethod='crop'); }
  #navigation ul li { float: left; font-size: 16px; text-transform: uppercase; padding: 0; margin: 0 0 0 40px; }
- #navigation ul li a { color: #f7f7f7; float: left; height: 18px; padding: 0 0 12px 0; }
+ #navigation ul li a { color: #f7f7f7; float: left; height: 18px; line-height: 18px; padding: 0 0 12px 0; }
  #navigation ul li a:hover, #navigation ul li#active a { color: #ff7b38; text-decoration: none; }
  #wsite-menus .wsite-menu li a { background: #000d16; border: 1px solid #404a51; text-decoration: none; padding: 8px 6px 8px 12px; color: #fff; }
  #wsite-menus .wsite-menu li a:hover { background: #131f28; color: #ee7437; }
